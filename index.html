@@ -11,44 +11,58 @@
   </head>
   <body>
     <header class="header">
-      <nav>
-        <ul class="menu">
-          <li class="header-text">главная</li>
-          <li class="header-text text-underline">посмотреть лоты</li>
-          <li class="header-text text-underline">об аукционе</li>
+
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__link header__links-list-item_no-bullit header__link_active">главная</li>
+          <li class="header__link">посмотреть лоты</li>
+          <li class="header__link">об аукционе</li>
         </ul>
       </nav>
-      
-      <a class="logo"><img src="./images/logo.svg"/></a>
+
+      <div class="header__logo">
+        <a>
+          <img class= "header__logo-image" src="./images/logo.svg"/>
+        </a>
+      </div>
+
       <address class="address">
-        <p class="header-text text-underline">+9 999 555 5555</p>
-        <p class="header-text text-underline">info@sobaka.ge</p>
-        <p class="header-text">наб. Принсенграхт 263- 265, Амстердам</p>
+        <a href="tel:+99995555555" class="header__link">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="header__link">info@sobaka.ge</a>
+        <p class="header__link header__link_active">наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
+
     </header>
     <main>
 
       <section class="cover">
-        <h1>Оно тебе надо</h1>
-        <div class="description">
-          <p></p>
-            <button>
-        </div>
+          <div class="overlay">
+            <h1 class="cover__title">
+              <span class="aligned-text aligned-text_left">Оно</span>
+              <span class="aligned-text aligned-text_center">тебе</span>
+              <span class="aligned-text aligned-text_right">надо</span>
+            </h1>
+            <div class="description">
+              <!-- <p></p> -->
+                <!-- <button></button> -->
+            </div>
+          </div>
       </section>
+
 
       <section class="lots">
         <h1 class="section-title">Лоты</h1>
         <ul>
           <li class="card frame-one">
-            <a>
+            <a></a>
           </li>
 
           <li class="card frame-two">
-            <a>
+            <a></a>
           </li>
 
           <li class="card frame-three">
-            <a>
+            <a></a>
           </li>
 
         </ul>
