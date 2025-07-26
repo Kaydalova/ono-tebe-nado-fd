@@ -9,7 +9,6 @@
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   align-items: center;
-  /* justify-items: center; */
   padding: 90px 50px 94px 50px;
 }
 
@@ -22,7 +21,6 @@
 
 header__links-list-item_no-bullit {
   list-style-type: none;
-  
 }
 
 .header__logo {
@@ -48,14 +46,12 @@ header__links-list-item_no-bullit {
   letter-spacing: 0%;
   font-style: normal;
   text-decoration: underline;
-
+  text-underline-offset: 4px;
 }
 
 .header__link_active {
   text-decoration: none;
 }
-
-
 
 .cover {
   height: 757px;
@@ -63,8 +59,6 @@ header__links-list-item_no-bullit {
   background-size: cover;
   background-position: center top;
   min-height: 757px;
-
-  
 }
 
 .overlay {
@@ -125,36 +119,87 @@ header__links-list-item_no-bullit {
 .lots {
   height: 723px;
   margin: 180px 24px 0px 24px;
-  background-color: rgb(127, 255, 244);
-  /* display: flex;
-  flex-direction: column; */
+}
 
+.lots__heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-bottom: 34px;
+}
+
+.lots__card-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
 }
 
 .card {
-  height: 596px;
-  width: 334px;
-  margin-top: 74px;
+  height: 100%;
   background-position: center top;
   background-size: cover;
-  /* display: inline; */
+  padding: 48px 39px 48px 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.frame-one {
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
+  background-position: center top;
+  background-size: cover;
 
 }
 
-.frame-two {
+.card_type_book {
   background-image: url(../images/card-lot-02.jpg);
   background-position: center top;
   background-size: cover;
 }
 
-.frame-three {
+.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   background-position: center top;
   background-size: cover;
+}
+
+.card__title {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: white;
+}
+
+.card__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: white;
+}
+
+.lots__look-more-link {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-left: 40px;
+  margin-top: 30px;
+  text-underline-offset: 4px;
+  text-decoration: underline;
 }
 
 .about {
