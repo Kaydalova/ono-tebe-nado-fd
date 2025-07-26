@@ -203,9 +203,63 @@ header__links-list-item_no-bullit {
 }
 
 .about {
-  height: 595px;
+  height: 895px;
+  padding: 155px 28px 181px 24px;
+  display: grid;
+  grid-template-columns: 335px 1fr 1fr;
+  gap: 25px;
+}
+
+.about__logo {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+.about__logo-image {
+  width: 148px;
+}
+
+.about__text-container {
+  grid-column: span 2;
 
 }
 
+.about__title {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 106px;
+  margin-top: 103px;
+}
 
+.about__text {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  gap: 24px;
+}
 
+.footer {
+  height: 293px;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  align-items: start;
+  justify-items: start;
+  padding: 0px 50px 94px 50px;
+}
+
+.footer__address {
+  justify-self: start;
+}
