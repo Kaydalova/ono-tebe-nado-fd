@@ -19,7 +19,7 @@
   justify-self: start;
 }
 
-header__links-list-item_no-bullit {
+.header__links-list-item_no-bullit {
   list-style-type: none;
 }
 
@@ -70,7 +70,7 @@ header__links-list-item_no-bullit {
   text-transform: uppercase;
   font-weight: 700;
   font-style: bold;
-  font-size: 100px;;
+  font-size: 100px;
   letter-spacing: 0.3em;
   color: white;
   line-height: 114%;
@@ -79,7 +79,7 @@ header__links-list-item_no-bullit {
 }
 
 .aligned-text {
-  display:  block;
+  display: block;
 }
 
 .aligned-text_left {
@@ -99,11 +99,9 @@ header__links-list-item_no-bullit {
 
 .cover__description {
   display: flex;
-  gap: 118px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 12px;
-
+  margin: 0px 50px 0px 50px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cover__description-text {
@@ -115,6 +113,17 @@ header__links-list-item_no-bullit {
   color: white;
 }
 
+.bet-button {
+  background-color: transparent;
+  border: 1px solid white;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: white;
+  padding: 11px 32px 11px 31px;
+}
 
 .lots {
   height: 723px;
@@ -157,7 +166,6 @@ header__links-list-item_no-bullit {
   background-image: url(../images/card-lot-01.jpg);
   background-position: center top;
   background-size: cover;
-
 }
 
 .card_type_book {
@@ -227,7 +235,6 @@ header__links-list-item_no-bullit {
 
 .about__text-container {
   grid-column: span 2;
-
 }
 
 .about__title {
@@ -252,14 +259,58 @@ header__links-list-item_no-bullit {
 }
 
 .footer {
-  height: 293px;
+  height: 180px;
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   align-items: start;
   justify-items: start;
-  padding: 0px 50px 94px 50px;
+  padding: 0px 50px 82px 50px;
 }
 
 .footer__address {
   justify-self: start;
+  min-width: 264px;
+}
+
+.footer__menu {
+  padding-top: 7px;
+}
+
+.footer__menu-list {
+  list-style: none;
+  text-transform: lowercase;
+}
+
+.footer__menu-list-item {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  justify-self: end;
+  list-style: none;
+  display: flex;
+  gap: 48px;
+}
+
+.footer__link {
+  display: block;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
 }
