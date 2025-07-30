@@ -7,13 +7,13 @@
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px 50px;
+  padding: 91px 50px 97px 51px;
 }
 
 .header__links-list {
   display: flex;
   list-style: circle;
-  gap: 31px;
+  gap: 30px;
   justify-self: start;
 }
 
@@ -24,13 +24,13 @@
 .header__link {
   letter-spacing: 0.07em;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 5px;
   text-decoration-thickness: 1px;
   display: inline-block;
 }
 
 .header__link_extra_margin {
-  margin-left: 3px;
+  margin-left: 4px;
 }
 
 .header__logo {
@@ -81,7 +81,7 @@
   letter-spacing: 0.3em;
   color: white;
   line-height: 114%;
-  padding: 166px 40px 110px 50px;
+  padding: 165px 40px 110px 50px;
 }
 
 .aligned-text {
@@ -208,10 +208,10 @@
 }
 
 .about {
-  padding: 154px 28px 177px 23px;
+  padding: 155px 28px 177px 24px;
   display: grid;
   grid-template-columns: 335px 1fr 1fr;
-  gap: 25px;
+  gap: 24px;
 }
 
 .about__logo {
@@ -238,8 +238,8 @@
   font-size: 40px;
   line-height: 100%;
   text-transform: uppercase;
-  margin-bottom: 103px;
-  margin-top: 107px;
+  margin-bottom: 101px;
+  margin-top: 106px;
 }
 
 .about__text {
@@ -256,7 +256,7 @@
   grid-template-columns: 1fr max-content 1fr;
   align-items: start;
   justify-items: start;
-  padding: 4px 50px 82px 50px;
+  padding: 5px 49px 82px 51px;
 }
 
 .footer__address {
