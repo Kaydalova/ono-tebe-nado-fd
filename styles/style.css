@@ -22,11 +22,11 @@
 }
 
 .header__link {
-  letter-spacing: 0.07em;
   text-decoration: underline;
   text-underline-offset: 5px;
   text-decoration-thickness: 1px;
   display: inline-block;
+  font-size: 18px;
 }
 
 .header__link_extra_margin {
@@ -273,7 +273,7 @@
   text-transform: lowercase;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 4.15px;
 }
 
 .footer__link_active {
@@ -291,8 +291,8 @@
   display: block;
   text-align: center;
   line-height: 100%;
-  letter-spacing: 0.06em;
-  text-underline-offset: 5px;
+  text-underline-offset: 4px;
+  font-size: 18px;
 }
 
 .footer__social-icon {
